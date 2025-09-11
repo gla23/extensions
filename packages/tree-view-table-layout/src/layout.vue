@@ -100,6 +100,7 @@ function useCollectionPermissions(collection: Ref<string>) {
 		sortAllowed: computed(() => {
 			if (!props.sortField)
 				return false;
+			return true
 			return permissionsStore.hasPermission(collection.value, 'sort');
 		}),
 	};

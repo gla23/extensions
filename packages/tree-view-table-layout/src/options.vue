@@ -37,7 +37,7 @@ const selfReferencingM2oFields = computed(() => {
 			['string', 'uuid', 'integer', 'bigInteger'].includes(
 				field.type,
 			)
-			&& field.meta?.special?.includes('m2o')
+			// && field.meta?.special?.includes('m2o')
 			&& field.schema?.foreign_key_table === props.collection,
 	);
 });

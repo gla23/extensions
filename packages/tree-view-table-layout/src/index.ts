@@ -39,7 +39,7 @@ import Options from './options.vue';
 
 export default defineLayout<LayoutOptions, LayoutQuery>({
 	id: 'directus-labs-tree-view-table-layout',
-	name: 'Tree View Table',
+	name: 'Tree View Table Fixed',
 	icon: 'format_indent_increase',
 	component: Layout,
 	slots: {
